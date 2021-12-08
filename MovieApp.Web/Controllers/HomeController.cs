@@ -17,13 +17,7 @@ namespace MovieApp.Web.Controllers
         {
             _context = context;
         }
-        //private readonly ILogger<HomeController> _logger;
-
-        //public HomeController(ILogger<HomeController> logger)
-        //{
-        //    _logger = logger;
-        //}
-
+       
         public IActionResult Index()
         {
 
@@ -33,6 +27,8 @@ namespace MovieApp.Web.Controllers
             };
             return View(model);
         }
+
+
         public IActionResult About(){
             
             
